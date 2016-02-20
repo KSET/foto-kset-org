@@ -134,6 +134,11 @@ body {
 }*/
 
 @media (max-width: 991px){
+  
+  .body{
+    background-image: image-url("logo-foto2-medium-mobile.jpg");
+  }
+  
   #PrijaveOuter{
     background: linear-gradient(180deg, #d0d0d0 50%, #ff6600 50%);
     color: #181818;
