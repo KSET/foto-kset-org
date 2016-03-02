@@ -32,6 +32,7 @@ html {
 }
 body {
   background-image: image-url("logo-foto2-medium.jpg");
+  background-color: #181818;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -134,11 +135,11 @@ body {
 }*/
 
 @media (max-width: 991px){
-  
+
   .body{
-    background-image: image-url("logo-foto2-medium-mobile.jpg");
+    background-image: none;
   }
-  
+
   #PrijaveOuter{
     background: linear-gradient(180deg, #d0d0d0 50%, #ff6600 50%);
     color: #181818;
@@ -259,7 +260,7 @@ body {
 #TecajModalButton{
 
   position: fixed;
-  left: -100vw;
+  left: 0;
   top: 25%;
   height: 50%;
   z-index: 1000;
@@ -269,7 +270,7 @@ body {
 #RadionicaModalButton{
 
   position: fixed;
-  right: -100vw;
+  right: 0;
   top: 25%;
   height: 50%;
   z-index: 1000;

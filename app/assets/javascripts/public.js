@@ -9,22 +9,6 @@ $(document).ready(function(){
       $('#preloader').fadeOut('slow', function () { $(this).remove(); });
   });
 
-  $("#TecajContainer").mouseenter( function(){
-    $("#TecajModalButton").animate({left: "0vw"},200);
-  });
-
-  $("#TecajContainer").mouseleave( function(){
-    $("#TecajModalButton").animate({left: "-100vw"},500);
-  });
-
-  $("#RadionicaContainer").mouseenter( function(){
-    $("#RadionicaModalButton").animate({right: "0vw"},200);
-  });
-
-  $("#RadionicaContainer").mouseleave( function(){
-    $("#RadionicaModalButton").animate({right: "-100vw"},500);
-  });
-
   $(window).scroll( function(){
     if ( $(this).scrollTop() > 500 ) {
       $("#BackToTop").fadeIn(400);
