@@ -3,4 +3,5 @@
   = f.input :last_name, label: 'Prezime'
   = f.input :email
   = f.input :mobile_phone, label: 'Broj mobitela'
-  = f.association :season, input_html: { hidden: true }, selected: season.id, label: false
+  .hidden
+    = f.association :season, input_html: { hidden: true }, selected: season.id, label: false
