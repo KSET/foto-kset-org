@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
   namespace :admin do
     root to: 'seasons#index'
-    resources :applications
+    resources :applications, except: [:index]
     resources :seasons
     resources :users
   end

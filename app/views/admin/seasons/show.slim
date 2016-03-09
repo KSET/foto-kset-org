@@ -19,10 +19,10 @@
         table.table.table-striped
           thead
             tr
-              th ID
               th First name
               th Last name
               th Season
+              th Created at
               th
           tbody
             - @season.applications.order(created_at: :desc).each do |application|

@@ -1,8 +1,8 @@
 tr
-  th = application.id
   th = application.first_name
   th = application.last_name
   th = application.season.try(:title)
+  th = application.created_at.strftime('%d.%m.%Y %H:%M')
   th
     .pull-right
       = link_to [:admin, application], class: 'btn btn-xs btn-primary'
